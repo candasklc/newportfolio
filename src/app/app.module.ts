@@ -7,12 +7,14 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 
 import { AppKnowledgeModule } from 'src/app-knowledge/app-knowledge.module';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
