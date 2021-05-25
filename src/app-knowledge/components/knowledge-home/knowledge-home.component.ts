@@ -6,6 +6,60 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./knowledge-home.component.scss']
 })
 export class KnowledgeHomeComponent implements OnInit {
+  dummyData = [
+    {
+      title: 'Title',
+      description: 'Some description here.'
+    },
+    {
+      title: 'Title',
+      description: 'Some description here.'
+    },
+    {
+      title: 'Title',
+      description: 'Some description here.'
+    },
+    {
+      title: 'Title',
+      description: 'Some description here.'
+    },
+    {
+      title: 'Title',
+      description: 'Some description here.'
+    },
+    {
+      title: 'Title',
+      description: 'Some description here.'
+    },
+    {
+      title: 'Title',
+      description: 'Some description here.'
+    },
+    {
+      title: 'Title',
+      description: 'Some description here.'
+    },
+    {
+      title: 'Title',
+      description: 'Some description here.'
+    },
+    {
+      title: 'Title',
+      description: 'Some description here.'
+    },
+    {
+      title: 'Title',
+      description: 'Some description here.'
+    },
+    {
+      title: 'Title',
+      description: 'Some description here.'
+    },
+    {
+      title: 'Title',
+      description: 'Some description here.'
+    },
+  ];
 
   constructor() { }
 

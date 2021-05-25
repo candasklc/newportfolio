@@ -1,1 +1,12 @@
-<h1>Knowledge Home Page</h1>
+<section class="cards-container">
+    <article class="card-wrapper"  *ngFor="let card of dummyData">
+        <div class="card">
+            <div class="title-container">
+                <h2 class="card-title">{{ card.title }}</h2>
+            </div>
+            <div class="description-container">
+                <h4 class="card-description">{{ card.description }}</h4>
+            </div>
+        </div>
+    </article>
+</section>

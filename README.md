@@ -1,3 +1,15 @@
+------------This is the project where I show and improve my skills.------------
+
+
+
+If any app needed to be added to this project, it must be another module.
+
+More technical information will follow soon...
+
+
+
+
+
 # Portfolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.

@@ -1,2 +1,2 @@
-1.Create Homepage
-2.Create another module which will contain the additional app
+1.Responsiveness
+2.Homepage
