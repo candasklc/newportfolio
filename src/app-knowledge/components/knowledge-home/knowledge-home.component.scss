@@ -13,7 +13,7 @@
     .card {
       width: 150px;
       height: 250px;
-      box-shadow: 0 0 5px 0 black;
+      box-shadow: 0 0 5px 0 rgba(129, 129, 129, 0.822);
       border-radius: 10px;
       transition: 0.2s;
       display: grid;
@@ -21,8 +21,8 @@
       text-align: center;
     }
     .card:hover {
-      width: 152px;
-      height: 252px;
+      width: 155px;
+      height: 255px;
     }
 
   }
