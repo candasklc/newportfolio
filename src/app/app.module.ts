@@ -8,6 +8,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 
 import { AppKnowledgeModule } from 'src/app-knowledge/app-knowledge.module';
 import { FooterComponent } from './components/footer/footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './components/footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AppKnowledgeModule
+    AppKnowledgeModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
